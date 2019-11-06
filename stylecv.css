@@ -1,0 +1,111 @@
+body{
+	font-family: 'roboto';
+	text-align: center;
+}
+p{
+	font-size: 16px;
+	word-spacing: 3px;
+	text-align: justify;
+	color: #082851
+}
+h1{
+	color: #FAF7F7;
+	text-shadow: 0 0 10px #000000;
+	font-family: 'roboto';
+}
+
+h2{
+	color: black;
+	text-shadow: 0 0 10px #FFFFFF;
+	font-family: 'roboto';
+}
+
+h3{
+	color: #082851;
+	font-family: 'roboto';
+}
+
+h4{
+	color: #082851;
+	font-family: 'roboto';
+	display: inline;
+}
+
+h5{
+	color: #082851;	
+	display: inline;
+
+}
+a{
+	color: #082851 ;
+	text-decoration: none;
+}
+
+.banniere{
+	background-color: #4dbff0;	
+	background-size: cover;	
+	padding: 12px;	
+}
+
+.button{
+	text-decoration: none;
+	color:white;
+	background-color: #082851;
+	margin: 12px;
+	padding: 9px;
+	border-radius: 9px;
+}
+
+#busan{
+	border-radius: 140px;
+	width: 15%;
+	height: 15%;
+}
+
+.contener{
+	width: 700px ;
+	margin: 17px auto;
+}
+
+.card-design{
+	background: white;
+	padding: 30px;
+	margin: 12px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+	text-align: left;
+	line-height: 100%;
+}
+
+.logo{
+	max-width: 60px;
+	max-height: 600px;
+	margin-right:20px;
+	vertical-align: middle;
+    display: inline-block;
+}
+
+.footer{
+	background-color: #4dbff0;
+	background-size: cover;
+	padding: 8px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+	text-align: center;
+}
+.coordonnées{
+	text-align: center; 
+	display: inline-block;
+	position: relative;
+}
+
+.fa-linkedin {
+  background: #004eb5;
+  color: white;
+  size: 110%;
+  width: 25px;
+  height: 25px;
+  position: center
+}
+
+
+  
