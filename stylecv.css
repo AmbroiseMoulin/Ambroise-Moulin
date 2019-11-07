@@ -5,7 +5,7 @@ body{
 p{
 	font-size: 16px;
 	word-spacing: 3px;
-	text-align: justify;
+	text-align: center;
 	color: #082851
 }
 h1{
@@ -56,8 +56,8 @@ a{
 	border-radius: 9px;
 }
 
-#busan{
-	border-radius: 140px;
+#busan{ float: center;
+	border-radius: 75%;
 	width: 15%;
 	height: 15%;
 }
@@ -76,13 +76,21 @@ a{
 	text-align: left;
 	line-height: 100%;
 }
+.elements{
+	justify-content: space-around;
+	display: inline-block; 
+	text-align: center; 
+	position: relative;
+	padding: 12px;
+	object-position: center}
+
 
 .logo{
 	max-width: 60px;
 	max-height: 600px;
 	margin-right:20px;
 	vertical-align: middle;
-    display: inline-block;
+    display: inline-block
 }
 
 .footer{
@@ -90,7 +98,7 @@ a{
 	background-size: cover;
 	padding: 8px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-	text-align: center;
+	text-align: center
 }
 .coordonnées{
 	text-align: center; 
@@ -101,11 +109,10 @@ a{
 .fa-linkedin {
   background: #004eb5;
   color: white;
-  size: 110%;
+  size: 100%;
   width: 25px;
-  height: 25px;
+  height: 20px;
   position: center
-}
 
 
   
